@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Window Canvas</title>
+  <style>
+    body {
+      margin: 3; 
+      padding: 0; /* Remove default body padding */
+      overflow: hidden; /* Hide any scrollbars */
+    }
+    canvas {
+                border: 1px solid black; /* Optional: add a border to each canvas */
+                margin: 0 5px;  /* Add margin for spacing (alternative to grid gap) */
+            }
+  </style>
+</head>
+   <body>
+      <div id="canvas-container">
+              <canvas id="MainField" width="1000px" height="600px" ></canvas>
+              <canvas id="DataField" width="200px" height="600px"></canvas>
+          </div>
+      
+      <script src="GameField.js"></script>
+      <script src="script.js"></script>
+      
+   </body>
+   
+</html>
+
